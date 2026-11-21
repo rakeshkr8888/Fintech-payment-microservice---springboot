@@ -1,0 +1,157 @@
+# =========================
+# Environment Files
+# =========================
+
+.env
+.env.*
+!.env.example
+
+fintech-frontend/.env
+fintech-frontend/.env.*
+!fintech-frontend/.env.example
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Java Compiled Files
+# =========================
+
+*.class
+
+# =========================
+# Java Archives
+# =========================
+
+*.jar
+*.war
+*.nar
+*.ear
+
+# =========================
+# Package Archives
+# =========================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# =========================
+# JVM Crash Logs
+# =========================
+
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Maven
+# =========================
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Node Modules
+# =========================
+
+node_modules/
+
+# =========================
+# React Build
+# =========================
+
+build/
+dist/
+
+# =========================
+# IDE Files
+# =========================
+
+.idea/
+.vscode/
+.settings/
+
+*.iml
+*.ipr
+*.iws
+
+.classpath
+.project
+.factorypath
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docker
+# =========================
+
+docker-data/
+*.pid
+
+# =========================
+# Temporary Files
+# =========================
+
+tmp/
+temp/
+*.tmp
+*.temp
+
+# =========================
+# Coverage Reports
+# =========================
+
+coverage/
+.jacoco/
+*.exec
+
+# =========================
+# Testing
+# =========================
+
+surefire-reports/
+failsafe-reports/
+
+# =========================
+# BlueJ
+# =========================
+
+*.ctxt
+
+# =========================
+# J2ME
+# =========================
+
+.mtj.tmp/
+
+# =========================
+# Misc
+# =========================
+
+*.swp
+*.swo
+*~
